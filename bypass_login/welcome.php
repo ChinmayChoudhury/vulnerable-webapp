@@ -6,7 +6,7 @@
 	// print_r($_COOKIE);
 	if (!isset($_SESSION['user'])) {
 		$_SESSION['error'] = "please login first";
-		header("Location: login.php"); return;
+		header("Location: index.php"); return;
 	}
 ?>
 

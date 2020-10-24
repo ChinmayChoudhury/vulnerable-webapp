@@ -51,5 +51,7 @@ session_start();
 			header("Location: login.php");
 		}
 	?>
+	<br>
+	<p><a href="/sessionhijack/transfer.php">Transfer Money </a></p>
 </body>
 </html>

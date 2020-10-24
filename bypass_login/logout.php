@@ -1,5 +1,8 @@
 <?php
+session_id($_COOKIE['PHPSESSID']);
+session_start();
 session_unset();
 session_destroy();
-header("Location: login.php"); return;
+// setrawcookie('auth')
+header("Location: index.php"); return;
 ?>
